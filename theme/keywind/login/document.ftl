@@ -11,9 +11,13 @@
     </#list>
   </#if>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;700&display=swap" rel="stylesheet">
+
   <#if properties.favicons?has_content>
     <#list properties.favicons?split(" ") as favicon>
-      <link href="${url.resourcesPath}/${favicon?split('==')[0]}" rel="${meta?split('==')[1]}">
+      <link href="${url.resourcesPath}/${favicon?split('==')[0]}" rel="icon">
     </#list>
   </#if>
 

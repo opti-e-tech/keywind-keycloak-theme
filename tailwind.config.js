@@ -12,8 +12,42 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.blue,
-        secondary: colors.gray,
+        primary: {
+          '50': "#eff6ff",
+          '100': "#dbeafe",
+          '200': "#bfdbfe",
+          '300': "#93c5fd",
+          '400': "#60a5fa",
+          '500': "#3b82f6",
+          '600': "#2563eb",
+          '700': "#1d4ed8",
+          '800': "#1e40af",
+          '900': "#1e3a8a",
+        },
+        primary: {
+          '50': '#f7fbe6',
+          '100': '#e6f3b3',
+          '200': '#ddef99',
+          '300': '#cde666',
+          '400': '#c4e24d',
+          '500': '#b3da1a',
+          '600': '#ABD600',
+          '700': '#9ac100',
+          '800': '#89ab00',
+          '900': '#789600',
+        },
+        secondary: {
+          '50': '#f9f9f9',
+          '100': '#f2f2f2',
+          '200': '#dadada',
+          '300': '#c2c2c2',
+          '400': '#a9a9a9',
+          '500': '#919191',
+          '600': '#797979',
+          '700': '#616161',
+          '800': '#494949',
+          '900': '#303030',
+        },
 
         provider: {
           bitbucket: '#0052CC',
@@ -32,6 +66,10 @@ module.exports = {
           twitter: '#1DA1F2',
         },
       },
+
+      fontFamily: {
+        default: ['Radio Canada', 'sans-serif']
+      }
     },
   },
 };
